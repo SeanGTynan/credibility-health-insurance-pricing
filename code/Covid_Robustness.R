@@ -42,7 +42,7 @@ if (!dir.exists("outputs/covid/figures")) dir.create("outputs/covid/figures", re
 # 1. Load data
 # ------------------------------------------------------------
 
-meps245 <- read_dta("h245.dta")
+meps245 <- read_dta("data/h245.dta")
 
 raw_data_check <- tibble(
   file = "HC-245",
