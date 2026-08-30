@@ -50,7 +50,7 @@ floor_price <- function(x) pmax(x, 1)
 # 1. Load data
 # ------------------------------------------------------------
 
-meps <- read_dta("h252.dta")
+meps <- read_dta("data/h252.dta")
 
 raw_data_check <- tibble(
   rows = nrow(meps),
